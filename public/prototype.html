@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>门店经营看板</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="phone-page" aria-label="01-苏州南站店经营看板">
+      <section class="hero-panel" aria-label="门店营业额汇总">
+        <nav class="title-bar" aria-label="页面导航">
+          <button class="back-button" aria-label="返回"></button>
+          <h1>01-苏州南站店</h1>
+          <button class="menu-pill" aria-label="更多操作">
+            <span></span>
+            <span></span>
+            <span></span>
+            <i></i>
+          </button>
+        </nav>
+
+        <div class="revenue-filter">
+          <span>总营业额（元）</span>
+          <span>2026年06月</span>
+          <span>至</span>
+          <span>2026年06月</span>
+        </div>
+
+        <div class="revenue-main">
+          <strong>13,735.60</strong>
+          <button type="button">近30日营业额</button>
+        </div>
+
+        <div class="revenue-stats">
+          <div>
+            <span>今日营业额</span>
+            <strong>37.59</strong>
+          </div>
+          <div>
+            <span>昨日营业额</span>
+            <strong>1,612.26</strong>
+          </div>
+          <div>
+            <span>同比增长</span>
+            <strong>-97.67% ↓</strong>
+          </div>
+          <div>
+            <span>股份占比</span>
+            <strong>10%</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-stack">
+        <button class="ai-entry-card" type="button" data-open-ai aria-label="查看AI经营预测详情">
+          <span class="ai-entry-icon">AI</span>
+          <span class="ai-entry-copy">
+            <strong>AI经营预测</strong>
+            <em>收入预测｜目标完成率｜退款风险｜续卡流失｜AI建议</em>
+          </span>
+          <span class="ai-entry-arrow">›</span>
+        </button>
+
+        <article class="dashboard-card member-card" aria-label="会员概况">
+          <header class="section-heading">
+            <h2>会员概况</h2>
+            <p>*数据更新时间： 2026-06-09 09:38:13</p>
+            <button type="button" aria-label="刷新会员数据">↻</button>
+          </header>
+          <div class="member-grid">
+            <div class="member-item">
+              <span class="metric-icon blue">⌖</span>
+              <div>
+                <h3>今日到店会员</h3>
+                <strong class="down">26 ↓</strong>
+                <span>较昨日-136</span>
+              </div>
+            </div>
+            <div class="member-item">
+              <span class="metric-icon pink">▰</span>
+              <div>
+                <h3>今日新增会员</h3>
+                <strong class="down">1 ↓</strong>
+                <span>较昨日-18</span>
+              </div>
+            </div>
+            <div class="member-item">
+              <span class="metric-icon pink">▰</span>
+              <div>
+                <h3>总会员数</h3>
+                <strong class="up">7550 ↑</strong>
+                <span>较上月+189</span>
+              </div>
+            </div>
+            <div class="member-item">
+              <span class="metric-icon cyan">⌂</span>
+              <div>
+                <h3>今日购卡会员</h3>
+                <strong class="down">4 ↓</strong>
+                <span>较昨日-67</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card chart-card" aria-label="数据看板">
+          <header class="section-heading compact">
+            <h2>数据看板</h2>
+            <p>*日销售数据会根据时间范围筛选发生变化</p>
+          </header>
+          <div class="line-chart" aria-label="06月01日至06月09日销售趋势">
+            <div class="axis-labels">
+              <span>2900</span>
+              <span>2320</span>
+              <span>1740</span>
+              <span>1160</span>
+              <span>580</span>
+              <span>0</span>
+            </div>
+            <svg viewBox="0 0 620 360" role="img" aria-label="销售折线图">
+              <defs>
+                <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#496cf0" stop-opacity="0.28" />
+                  <stop offset="100%" stop-color="#496cf0" stop-opacity="0.08" />
+                </linearGradient>
+              </defs>
+              <g class="grid-lines">
+                <line x1="30" y1="20" x2="600" y2="20" />
+                <line x1="30" y1="86" x2="600" y2="86" />
+                <line x1="30" y1="152" x2="600" y2="152" />
+                <line x1="30" y1="218" x2="600" y2="218" />
+                <line x1="30" y1="284" x2="600" y2="284" />
+                <line x1="30" y1="350" x2="600" y2="350" />
+              </g>
+              <path class="chart-area" d="M62 276 L126 32 L190 74 L254 112 L318 286 L382 146 L446 180 L510 170 L574 345 L574 350 L62 350 Z" />
+              <polyline class="chart-line" points="62,276 126,32 190,74 254,112 318,286 382,146 446,180 510,170 574,345" />
+              <g class="chart-dots">
+                <circle cx="62" cy="276" r="6" />
+                <circle cx="126" cy="32" r="6" />
+                <circle cx="190" cy="74" r="6" />
+                <circle cx="254" cy="112" r="6" />
+                <circle cx="318" cy="286" r="6" />
+                <circle cx="382" cy="146" r="6" />
+                <circle cx="446" cy="180" r="6" />
+                <circle cx="510" cy="170" r="6" />
+                <circle cx="574" cy="345" r="6" />
+              </g>
+            </svg>
+            <div class="date-labels">
+              <span>06-01</span>
+              <span>06-03</span>
+              <span>06-05</span>
+              <span>06-07</span>
+              <span>06-09</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="dashboard-card income-card" aria-label="收益分布">
+          <div class="segmented-tabs" role="tablist" aria-label="收益数据类型">
+            <button class="active" type="button">◔ 收益分布</button>
+            <button type="button">▣ 售卡数据</button>
+            <button type="button">◎ 场馆成本</button>
+          </div>
+          <p class="card-note">*分布比例会根据时间范围筛选发生变化</p>
+          <div class="income-visual">
+            <div class="donut" aria-label="微信、美团、抖音、其他收益占比"></div>
+            <ul class="legend">
+              <li><span class="dot purple"></span>微信</li>
+              <li><span class="dot cyan"></span>美团</li>
+              <li><span class="dot pink"></span>抖音</li>
+              <li><span class="dot gray"></span>其他</li>
+            </ul>
+          </div>
+          <div class="income-list">
+            <div><span class="brand wechat">微</span><span>微信</span><strong>￥ 3,537.00</strong></div>
+            <div><span class="brand meituan">美</span><span>美团</span><strong>￥ 2,080.20</strong></div>
+            <div><span class="brand douyin">抖</span><span>抖音</span><strong>￥ 8,118.40</strong></div>
+            <div><span class="brand other">其</span><span>其他</span><strong>￥ 0.00</strong></div>
+          </div>
+        </article>
+
+        <article class="dashboard-card feature-card" aria-label="智能运营">
+          <header class="section-heading">
+            <h2>智能运营</h2>
+            <p>*点击切换查看专项能力</p>
+          </header>
+          <div class="feature-tabs" role="tablist" aria-label="智能运营功能切换">
+            <button class="active" type="button" role="tab" aria-selected="true" data-tab="iot">物联</button>
+            <button type="button" role="tab" aria-selected="false" data-tab="work">工单</button>
+            <button type="button" role="tab" aria-selected="false" data-tab="checkin">打卡</button>
+          </div>
+
+          <section class="feature-panel active" data-panel="iot" aria-label="物联网控制">
+            <div class="iot-grid">
+              <button class="device-card online" type="button" data-open-device-page>
+                <span class="device-icon">▣</span>
+                <strong>门禁设备</strong>
+                <em>在线 8/8</em>
+              </button>
+              <button class="device-card online" type="button" data-open-device-page>
+                <span class="device-icon">◌</span>
+                <strong>照明系统</strong>
+                <em>已开启</em>
+              </button>
+              <button class="device-card warning" type="button" data-open-device-page>
+                <span class="device-icon">≋</span>
+                <strong>空调温控</strong>
+                <em>26°C 待优化</em>
+              </button>
+            </div>
+          </section>
+
+          <section class="feature-panel" data-panel="work" aria-label="工单提报信息">
+            <div class="work-summary">
+              <div><strong>6</strong><span>待处理</span></div>
+              <div><strong>2</strong><span>今日新增</span></div>
+              <div><strong>91%</strong><span>按时处理率</span></div>
+            </div>
+            <ul class="work-list">
+              <li><span class="tag urgent">紧急</span><div><strong>跑步机 T03 异响</strong><p>设备维护 · 15分钟前</p></div></li>
+              <li><span class="tag normal">普通</span><div><strong>淋浴间地漏疏通</strong><p>场馆保洁 · 42分钟前</p></div></li>
+              <li><span class="tag done">跟进</span><div><strong>会员续卡发票补开</strong><p>财务协同 · 09:12</p></div></li>
+            </ul>
+          </section>
+
+          <section class="feature-panel" data-panel="checkin" aria-label="打卡信息查看">
+            <div class="checkin-calendar">
+              <header>
+                <strong>本周打卡</strong>
+                <span data-checkin-count>今日 3 条</span>
+              </header>
+              <div class="week-days" data-week-days>
+                <button type="button" data-date="23"><span>周一</span><strong>23</strong></button>
+                <button type="button" data-date="24"><span>周二</span><strong>24</strong></button>
+                <button type="button" data-date="25"><span>周三</span><strong>25</strong></button>
+                <button type="button" data-date="26"><span>周四</span><strong>26</strong></button>
+                <button class="active" type="button" data-date="27"><span>周五</span><strong>27</strong></button>
+                <button type="button" data-date="28"><span>周六</span><strong>28</strong></button>
+                <button type="button" data-date="29"><span>周日</span><strong>29</strong></button>
+              </div>
+              <div class="extra-days" data-extra-days aria-hidden="true">
+                <button type="button" data-date="30"><span>周一</span><strong>30</strong></button>
+                <button type="button" data-date="01"><span>周二</span><strong>01</strong></button>
+                <button type="button" data-date="02"><span>周三</span><strong>02</strong></button>
+                <button type="button" data-date="03"><span>周四</span><strong>03</strong></button>
+              </div>
+              <button class="expand-calendar" type="button" data-toggle-calendar>展开更多日期</button>
+            </div>
+            <div class="checkin-summary">
+              <div><span>已打卡</span><strong data-checkin-done>18</strong></div>
+              <div><span>迟到</span><strong class="down" data-checkin-late>2</strong></div>
+              <div><span>缺卡</span><strong data-checkin-miss>1</strong></div>
+            </div>
+            <header class="checkin-list-heading">
+              <strong data-checkin-title>06月27日打卡信息</strong>
+              <span>默认选中当天</span>
+            </header>
+            <div class="checkin-list">
+            </div>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <section class="ai-detail-page" aria-label="AI经营预测详情" aria-hidden="true">
+      <div class="ai-detail-shell">
+        <header class="ai-detail-header">
+          <button type="button" data-close-ai aria-label="返回经营看板"></button>
+          <div>
+            <h2>AI经营预测</h2>
+            <p>根据门店收入、会员、退款与成本数据生成</p>
+          </div>
+        </header>
+
+        <section class="ai-score-card" aria-label="门店健康度评分">
+          <div>
+            <span>门店健康度评分</span>
+            <strong>82</strong>
+            <em>经营状态良好，需关注续卡和退款风险</em>
+          </div>
+          <div class="ai-score-ring">82</div>
+        </section>
+
+        <section class="ai-kpi-grid" aria-label="核心预测指标">
+          <div>
+            <span>本月收入预测</span>
+            <strong>￥ 48,600</strong>
+            <em>财务核心</em>
+          </div>
+          <div>
+            <span>本月目标完成率</span>
+            <strong>76%</strong>
+            <em>距离目标还差 15,400</em>
+          </div>
+          <div>
+            <span>未来7天收入预测</span>
+            <strong>￥ 12,850</strong>
+            <em>便于短期运营</em>
+          </div>
+          <div>
+            <span>利润预测</span>
+            <strong>￥ 18,920</strong>
+            <em>比单纯收入更有价值</em>
+          </div>
+        </section>
+
+        <section class="ai-detail-card ai-month-trend-card" aria-label="未来月份收入预测趋势图">
+          <header>
+            <h3>未来月份收入预测</h3>
+            <span>未来6个月趋势</span>
+          </header>
+          <div class="ai-month-trend-summary">
+            <div><span>预计峰值</span><strong>￥ 62,800</strong></div>
+            <div><span>平均月收入</span><strong>￥ 55,300</strong></div>
+            <div><span>趋势判断</span><strong class="up">稳步上升</strong></div>
+          </div>
+          <div class="ai-month-chart" aria-label="未来6个月收入预测折线图">
+            <div class="ai-month-axis">
+              <span>65k</span>
+              <span>58k</span>
+              <span>51k</span>
+              <span>44k</span>
+            </div>
+            <svg viewBox="0 0 560 260" role="img" aria-label="07月至12月收入预测趋势">
+              <defs>
+                <linearGradient id="monthTrendFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="#5068ed" stop-opacity="0.24" />
+                  <stop offset="100%" stop-color="#5068ed" stop-opacity="0.04" />
+                </linearGradient>
+              </defs>
+              <g class="ai-month-grid">
+                <line x1="42" y1="24" x2="536" y2="24" />
+                <line x1="42" y1="84" x2="536" y2="84" />
+                <line x1="42" y1="144" x2="536" y2="144" />
+                <line x1="42" y1="204" x2="536" y2="204" />
+              </g>
+              <path class="ai-month-area" d="M58 188 L150 160 L242 132 L334 112 L426 72 L518 56 L518 220 L58 220 Z" />
+              <polyline class="ai-month-line" points="58,188 150,160 242,132 334,112 426,72 518,56" />
+              <g class="ai-month-dots">
+                <circle cx="58" cy="188" r="6" />
+                <circle cx="150" cy="160" r="6" />
+                <circle cx="242" cy="132" r="6" />
+                <circle cx="334" cy="112" r="6" />
+                <circle cx="426" cy="72" r="6" />
+                <circle cx="518" cy="56" r="6" />
+              </g>
+            </svg>
+            <div class="ai-month-labels">
+              <span>07月</span>
+              <span>08月</span>
+              <span>09月</span>
+              <span>10月</span>
+              <span>11月</span>
+              <span>12月</span>
+            </div>
+          </div>
+        </section>
+
+        <section class="ai-detail-card" aria-label="收入结构预测">
+          <header>
+            <h3>收入结构预测</h3>
+            <span>看钱从哪里来</span>
+          </header>
+          <div class="ai-income-bars">
+            <div><span>微信</span><i style="--bar: 36%"></i><strong>36%</strong></div>
+            <div><span>抖音</span><i style="--bar: 44%"></i><strong>44%</strong></div>
+            <div><span>美团</span><i style="--bar: 20%"></i><strong>20%</strong></div>
+          </div>
+        </section>
+
+        <section class="ai-detail-card risk-card" aria-label="风险预测">
+          <header>
+            <h3>风险预测</h3>
+            <span>必须关注</span>
+          </header>
+          <div class="risk-list">
+            <div><strong>退款风险</strong><span class="danger">偏高</span><p>近7天私教卡退款咨询增加，建议优先回访高客单会员。</p></div>
+            <div><strong>会员续卡/流失风险</strong><span class="warning">中等</span><p>30天内到期会员 46 人，其中 12 人最近两周到店频次下降。</p></div>
+            <div><strong>支出异常</strong><span class="stable">建议展示</span><p>本月水电与设备维护成本较上月增加 8.6%，建议核对设备运行时段。</p></div>
+          </div>
+        </section>
+
+        <section class="ai-detail-card advice-card" aria-label="AI经营建议">
+          <header>
+            <h3>AI经营建议</h3>
+            <span>帮助落地执行</span>
+          </header>
+          <ol>
+            <li>晚高峰安排续卡顾问跟进 30 天内到期会员，优先处理低到店频次人群。</li>
+            <li>抖音渠道收入占比预计上升，可追加团课体验券，承接短期客流。</li>
+            <li>本周重点排查退款咨询来源，给高风险会员配置一次免费体测或课程回访。</li>
+          </ol>
+        </section>
+      </div>
+    </section>
+
+    <section class="device-page" aria-label="设备管理" aria-hidden="true">
+      <div class="device-shell">
+        <header class="subpage-header">
+          <button type="button" data-close-device-page aria-label="返回经营看板"></button>
+          <div>
+            <h2>设备管理</h2>
+            <p>01-苏州南站店 · 设备在线率 96%</p>
+          </div>
+        </header>
+
+        <section class="device-overview-card" aria-label="设备总览">
+          <div>
+            <span>在线设备</span>
+            <strong>38</strong>
+            <em>异常 2 台</em>
+          </div>
+          <div>
+            <span>离线设备</span>
+            <strong>2</strong>
+            <em>需检查网络</em>
+          </div>
+          <div>
+            <span>设备总数</span>
+            <strong>40</strong>
+            <em>3 类设备</em>
+          </div>
+        </section>
+
+        <section class="device-list-card" aria-label="设备列表">
+          <header>
+            <h3>设备可视化管理</h3>
+            <span>点击单台设备进入设置</span>
+          </header>
+
+          <div class="device-zone-map" aria-label="场馆设备分布">
+            <div class="zone-card main-zone">
+              <strong>训练区</strong>
+              <span>18 台设备</span>
+              <i class="zone-dot ac"></i>
+              <i class="zone-dot light"></i>
+              <i class="zone-dot access"></i>
+            </div>
+            <div class="zone-card">
+              <strong>前台入口</strong>
+              <span>10 台设备</span>
+              <i class="zone-dot access"></i>
+              <i class="zone-dot light"></i>
+            </div>
+            <div class="zone-card">
+              <strong>私教区</strong>
+              <span>8 台设备</span>
+              <i class="zone-dot ac"></i>
+              <i class="zone-dot light"></i>
+            </div>
+            <div class="zone-card">
+              <strong>休息区</strong>
+              <span>4 台设备</span>
+              <i class="zone-dot light"></i>
+            </div>
+          </div>
+
+          <div class="device-filter-tabs" role="tablist" aria-label="设备类型筛选">
+            <button class="active" type="button" data-device-filter="all">全部</button>
+            <button type="button" data-device-filter="access">门禁</button>
+            <button type="button" data-device-filter="light">照明</button>
+            <button type="button" data-device-filter="ac">空调</button>
+          </div>
+
+          <div class="device-visual-grid">
+            <button class="visual-device-card warning" type="button" data-device-type="ac" data-open-device-control="ac" data-device-name="大厅空调 AC-01" data-device-summary="训练区 · 当前 16°C · 自动定时">
+              <span class="device-row-icon ac">≋</span>
+              <div><strong>大厅空调 AC-01</strong><p>训练区 · 16°C · 自动定时</p></div>
+              <em>待优化</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="ac" data-open-device-control="ac" data-device-name="私教区空调 AC-02" data-device-summary="私教区 · 当前 24°C · 制冷运行">
+              <span class="device-row-icon ac">≋</span>
+              <div><strong>私教区空调 AC-02</strong><p>私教区 · 24°C · 制冷</p></div>
+              <em>在线</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="access" data-open-device-control="access" data-device-name="前门闸机 A-01" data-device-summary="前台入口 · 会员识别 · 在线">
+              <span class="device-row-icon access">▣</span>
+              <div><strong>前门闸机 A-01</strong><p>前台入口 · 会员识别</p></div>
+              <em>在线</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="access" data-open-device-control="access" data-device-name="后门门禁 A-02" data-device-summary="后门通道 · 员工通行 · 在线">
+              <span class="device-row-icon access">▣</span>
+              <div><strong>后门门禁 A-02</strong><p>后门通道 · 员工通行</p></div>
+              <em>在线</em>
+            </button>
+            <button class="visual-device-card offline" type="button" data-device-type="access" data-open-device-control="access" data-device-name="走廊门禁 A-03" data-device-summary="器械走廊 · 网络离线 · 需检查">
+              <span class="device-row-icon access">▣</span>
+              <div><strong>走廊门禁 A-03</strong><p>器械走廊 · 网络离线</p></div>
+              <em>离线</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="light" data-open-device-control="light" data-device-name="训练区主灯 L-01" data-device-summary="训练区 · 亮度 80% · 训练模式">
+              <span class="device-row-icon light">◌</span>
+              <div><strong>训练区主灯 L-01</strong><p>训练区 · 80% · 训练</p></div>
+              <em>运行中</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="light" data-open-device-control="light" data-device-name="私教区灯带 L-02" data-device-summary="私教区 · 亮度 60% · 休息模式">
+              <span class="device-row-icon light">◌</span>
+              <div><strong>私教区灯带 L-02</strong><p>私教区 · 60% · 休息</p></div>
+              <em>运行中</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="light" data-open-device-control="light" data-device-name="前台灯箱 L-03" data-device-summary="前台入口 · 亮度 90% · 展示模式">
+              <span class="device-row-icon light">◌</span>
+              <div><strong>前台灯箱 L-03</strong><p>前台入口 · 90% · 展示</p></div>
+              <em>运行中</em>
+            </button>
+            <button class="visual-device-card offline" type="button" data-device-type="light" data-open-device-control="light" data-device-name="休息区壁灯 L-04" data-device-summary="休息区 · 离线 · 需检查线路">
+              <span class="device-row-icon light">◌</span>
+              <div><strong>休息区壁灯 L-04</strong><p>休息区 · 离线</p></div>
+              <em>离线</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="ac" data-open-device-control="ac" data-device-name="休息区空调 AC-03" data-device-summary="休息区 · 当前 25°C · 送风运行">
+              <span class="device-row-icon ac">≋</span>
+              <div><strong>休息区空调 AC-03</strong><p>休息区 · 25°C · 送风</p></div>
+              <em>在线</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="access" data-open-device-control="access" data-device-name="私教区门禁 A-04" data-device-summary="私教区 · 临时放行关闭 · 在线">
+              <span class="device-row-icon access">▣</span>
+              <div><strong>私教区门禁 A-04</strong><p>私教区 · 会员识别</p></div>
+              <em>在线</em>
+            </button>
+            <button class="visual-device-card" type="button" data-device-type="light" data-open-device-control="light" data-device-name="更衣区照明 L-05" data-device-summary="更衣区 · 亮度 70% · 清洁模式">
+              <span class="device-row-icon light">◌</span>
+              <div><strong>更衣区照明 L-05</strong><p>更衣区 · 70% · 清洁</p></div>
+              <em>运行中</em>
+            </button>
+          </div>
+          <p class="device-empty-hint" aria-hidden="true">当前分类暂无设备</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="device-control-page" aria-label="设备控制详情" aria-hidden="true">
+      <div class="control-shell">
+        <header class="control-header">
+          <button type="button" data-close-ac-control aria-label="返回设备管理"></button>
+          <h2 data-control-title>空调控制</h2>
+        </header>
+
+        <section class="ac-state-card" aria-label="当前设备状态">
+          <strong data-control-value><span data-ac-temp>16</span>°C</strong>
+          <p data-control-state>空调关闭 · 自动定时</p>
+        </section>
+
+        <section class="ac-form-card device-control-form active" data-control-form="ac" aria-label="空调控制表单">
+          <div class="control-row">
+            <span>模式</span>
+            <button type="button" class="mode-button" data-mode-button><i>☀</i><strong data-ac-mode>制热</strong><em>›</em></button>
+          </div>
+          <div class="control-row">
+            <span>温度</span>
+            <div class="stepper">
+              <button type="button" data-temp-minus aria-label="降低温度">−</button>
+              <strong><span data-ac-temp-inline>16</span>°C</strong>
+              <button type="button" data-temp-plus aria-label="提高温度">＋</button>
+            </div>
+          </div>
+          <div class="control-row">
+            <span>风速</span>
+            <div class="stepper">
+              <button type="button" data-wind-prev aria-label="降低风速">−</button>
+              <strong data-ac-wind>自动</strong>
+              <button type="button" data-wind-next aria-label="提高风速">＋</button>
+            </div>
+          </div>
+          <div class="control-row">
+            <span>自动</span>
+            <button class="switch is-on" type="button" data-auto-switch aria-label="切换自动控制"><i></i></button>
+          </div>
+          <fieldset class="control-row radio-row">
+            <legend>自动类型</legend>
+            <label><input type="radio" name="autoType" value="定时" checked /> <span>定时</span></label>
+            <label><input type="radio" name="autoType" value="系统" /> <span>系统</span></label>
+          </fieldset>
+          <label class="control-row time-row">
+            <span>开始时间</span>
+            <input type="time" value="07:00" data-start-time />
+          </label>
+          <label class="control-row time-row">
+            <span>结束时间</span>
+            <input type="time" value="08:01" data-end-time />
+          </label>
+          <button class="save-control-button" type="button" data-save-ac>保存</button>
+          <p class="control-toast" data-control-toast aria-live="polite"></p>
+        </section>
+
+        <section class="ac-form-card device-control-form" data-control-form="access" aria-label="门禁控制表单">
+          <div class="control-row">
+            <span>门禁点位</span>
+            <button type="button" class="mode-button" data-access-point><strong>前门闸机</strong><em>›</em></button>
+          </div>
+          <div class="control-row">
+            <span>远程开门</span>
+            <button class="action-pill" type="button" data-access-open>立即开门</button>
+          </div>
+          <div class="control-row">
+            <span>通行模式</span>
+            <button type="button" class="mode-button" data-access-mode><strong>会员识别</strong><em>›</em></button>
+          </div>
+          <div class="control-row">
+            <span>常开状态</span>
+            <button class="switch" type="button" data-access-switch aria-label="切换常开状态"><i></i></button>
+          </div>
+          <label class="control-row time-row">
+            <span>生效时间</span>
+            <input type="time" value="09:00" data-access-start />
+          </label>
+          <button class="save-control-button" type="button" data-save-access>保存</button>
+          <p class="control-toast" data-access-toast aria-live="polite"></p>
+        </section>
+
+        <section class="ac-form-card device-control-form" data-control-form="light" aria-label="照明控制表单">
+          <div class="control-row">
+            <span>控制区域</span>
+            <button type="button" class="mode-button" data-light-area><strong>训练区</strong><em>›</em></button>
+          </div>
+          <div class="control-row">
+            <span>场景模式</span>
+            <button type="button" class="mode-button" data-light-scene><strong>训练</strong><em>›</em></button>
+          </div>
+          <div class="control-row">
+            <span>亮度</span>
+            <div class="stepper">
+              <button type="button" data-light-minus aria-label="降低亮度">−</button>
+              <strong><span data-light-level>80</span>%</strong>
+              <button type="button" data-light-plus aria-label="提高亮度">＋</button>
+            </div>
+          </div>
+          <div class="control-row">
+            <span>定时开关</span>
+            <button class="switch is-on" type="button" data-light-switch aria-label="切换照明定时"><i></i></button>
+          </div>
+          <label class="control-row time-row">
+            <span>关闭时间</span>
+            <input type="time" value="23:00" data-light-end />
+          </label>
+          <button class="save-control-button" type="button" data-save-light>保存</button>
+          <p class="control-toast" data-light-toast aria-live="polite"></p>
+        </section>
+
+      </div>
+    </section>
+
+    <script>
+      /**
+       * 初始化智能运营 Tab 切换。
+       *
+       * 功能说明：根据用户点击的 Tab 展示对应功能面板。
+       * 参数说明：无外部入参，直接读取页面中的 data-tab 与 data-panel。
+       * 返回值说明：无返回值，仅更新当前页面展示状态。
+       * 业务背景说明：新增能力不直接全部堆叠在主看板，避免破坏既有模块的信息节奏。
+       * 关键实现逻辑说明：通过同名 data 值建立按钮与面板映射，并同步 aria-selected 状态。
+       */
+      function initFeatureTabs() {
+        const tabs = Array.from(document.querySelectorAll(".feature-tabs [data-tab]"));
+        const panels = Array.from(document.querySelectorAll(".feature-panel[data-panel]"));
+
+        tabs.forEach((tab) => {
+          tab.addEventListener("click", () => {
+            const target = tab.dataset.tab;
+
+            tabs.forEach((item) => {
+              const isActive = item === tab;
+              item.classList.toggle("active", isActive);
+              item.setAttribute("aria-selected", String(isActive));
+            });
+
+            panels.forEach((panel) => {
+              panel.classList.toggle("active", panel.dataset.panel === target);
+            });
+          });
+        });
+      }
+
+      /**
+       * 初始化 AI 经营预测详情页。
+       *
+       * 功能说明：控制 AI 预测入口卡与详情页之间的展示切换。
+       * 参数说明：无外部入参，读取 data-open-ai 与 data-close-ai 标记绑定事件。
+       * 返回值说明：无返回值，仅更新详情页可见状态和页面滚动锁定。
+       * 业务背景说明：AI 预测属于高价值经营洞察，需要独立承载更完整的预测、风险和建议内容。
+       * 关键实现逻辑说明：通过 aria-hidden 与 body 锁滚动保证详情页打开时主看板不被误滚动。
+       */
+      function initAiDetailPage() {
+        const detailPage = document.querySelector(".ai-detail-page");
+        const openButton = document.querySelector("[data-open-ai]");
+        const closeButton = document.querySelector("[data-close-ai]");
+
+        if (!detailPage || !openButton || !closeButton) {
+          return;
+        }
+
+        const setOpen = (isOpen) => {
+          detailPage.classList.toggle("active", isOpen);
+          detailPage.setAttribute("aria-hidden", String(!isOpen));
+          document.body.classList.toggle("is-detail-open", isOpen);
+        };
+
+        openButton.addEventListener("click", () => setOpen(true));
+        closeButton.addEventListener("click", () => setOpen(false));
+      }
+
+      /**
+       * 初始化打卡日历与每日打卡明细。
+       *
+       * 功能说明：默认选中当天日期，点击日期后刷新统计和打卡列表，可展开查看更多日期。
+       * 参数说明：无外部入参，读取 data-date、data-toggle-calendar 等页面标记。
+       * 返回值说明：无返回值，仅更新当前打卡模块展示。
+       * 业务背景说明：打卡信息需要按日期查看，先展示本周高频日期，再提供展开入口查看临近日期。
+       * 关键实现逻辑说明：使用日期编号作为键读取模拟数据，统一渲染统计、标题和人员打卡记录。
+       */
+      function initCheckinCalendar() {
+        const calendarButtons = Array.from(document.querySelectorAll("[data-date]"));
+        const extraDays = document.querySelector("[data-extra-days]");
+        const toggleButton = document.querySelector("[data-toggle-calendar]");
+        const list = document.querySelector(".checkin-list");
+        const title = document.querySelector("[data-checkin-title]");
+        const count = document.querySelector("[data-checkin-count]");
+        const done = document.querySelector("[data-checkin-done]");
+        const late = document.querySelector("[data-checkin-late]");
+        const miss = document.querySelector("[data-checkin-miss]");
+        const checkinData = {
+          "23": { label: "06月23日", done: 15, late: 1, miss: 2, rows: [["陈", "陈教练", "08:56 到店 · 21:00 排班", "正常"], ["吴", "吴前台", "09:03 到店 · 前台早班", "正常"]] },
+          "24": { label: "06月24日", done: 17, late: 0, miss: 1, rows: [["刘", "刘教练", "08:49 到店 · 团课排班", "正常"], ["孙", "孙店助", "09:10 到店 · 巡场", "正常"]] },
+          "25": { label: "06月25日", done: 16, late: 2, miss: 1, rows: [["王", "王教练", "09:15 到店 · 私教排班", "迟到"], ["钱", "钱前台", "08:58 到店 · 前台早班", "正常"]] },
+          "26": { label: "06月26日", done: 18, late: 1, miss: 0, rows: [["李", "李店长", "08:40 到店 · 巡店检查", "正常"], ["许", "许教练", "09:08 到店 · 器械区", "迟到"]] },
+          "27": { label: "06月27日", done: 18, late: 2, miss: 1, rows: [["周", "周教练", "09:01 到店 · 21:00 排班", "正常"], ["林", "林前台", "09:18 到店 · 前台早班", "迟到"], ["赵", "赵店长", "08:42 到店 · 巡店检查", "正常"]] },
+          "28": { label: "06月28日", done: 12, late: 0, miss: 0, rows: [["何", "何教练", "09:00 到店 · 周末团课", "正常"], ["郑", "郑前台", "08:55 到店 · 周末班", "正常"]] },
+          "29": { label: "06月29日", done: 10, late: 1, miss: 1, rows: [["冯", "冯教练", "09:20 到店 · 体验课", "迟到"], ["高", "高客服", "09:02 到店 · 回访", "正常"]] },
+          "30": { label: "06月30日", done: 14, late: 1, miss: 2, rows: [["蒋", "蒋教练", "08:59 到店 · 私教排班", "正常"], ["程", "程前台", "09:16 到店 · 前台早班", "迟到"]] },
+          "01": { label: "07月01日", done: 13, late: 0, miss: 1, rows: [["唐", "唐教练", "08:50 到店 · 早训", "正常"], ["魏", "魏店助", "09:05 到店 · 物资盘点", "正常"]] },
+          "02": { label: "07月02日", done: 19, late: 2, miss: 0, rows: [["韩", "韩教练", "09:11 到店 · 私教排班", "迟到"], ["马", "马前台", "08:57 到店 · 前台早班", "正常"]] },
+          "03": { label: "07月03日", done: 16, late: 1, miss: 1, rows: [["朱", "朱教练", "09:07 到店 · 团课排班", "迟到"], ["秦", "秦店长", "08:39 到店 · 巡店检查", "正常"]] }
+        };
+
+        const render = (date) => {
+          const data = checkinData[date] || checkinData["27"];
+          calendarButtons.forEach((button) => button.classList.toggle("active", button.dataset.date === date));
+          count.textContent = `${data.label} ${data.rows.length} 条`;
+          title.textContent = `${data.label}打卡信息`;
+          done.textContent = data.done;
+          late.textContent = data.late;
+          miss.textContent = data.miss;
+          list.innerHTML = data.rows.map(([abbr, name, desc, status], index) => {
+            const avatarClass = index === 1 ? "pink-avatar" : index === 2 ? "cyan-avatar" : "";
+            const statusClass = status === "迟到" ? "late" : "";
+            return `<div><span class="avatar ${avatarClass}">${abbr}</span><div><strong>${name}</strong><p>${desc}</p></div><em class="${statusClass}">${status}</em></div>`;
+          }).join("");
+        };
+
+        calendarButtons.forEach((button) => {
+          button.addEventListener("click", () => render(button.dataset.date));
+        });
+
+        toggleButton.addEventListener("click", () => {
+          const isOpen = extraDays.classList.toggle("active");
+          extraDays.setAttribute("aria-hidden", String(!isOpen));
+          toggleButton.textContent = isOpen ? "收起更多日期" : "展开更多日期";
+        });
+
+        render("27");
+      }
+
+      /**
+       * 初始化设备管理到空调控制的完整操作链路。
+       *
+       * 功能说明：支持从经营看板进入设备管理页、进入空调详情，并修改空调控制参数。
+       * 参数说明：无外部入参，读取页面中的 data-* 控制标记绑定事件。
+       * 返回值说明：无返回值，直接更新设备页面、空调控制详情和保存提示。
+       * 业务背景说明：物联网控制需要从设备总览逐级下钻，避免在经营看板中直接暴露复杂控制项。
+       * 关键实现逻辑说明：维护一份空调状态对象，所有按钮修改状态后统一渲染，保存时给出当前配置摘要。
+       */
+      function initDeviceControlFlow() {
+        const devicePage = document.querySelector(".device-page");
+        const controlPage = document.querySelector(".device-control-page");
+        const openDeviceButtons = Array.from(document.querySelectorAll("[data-open-device-page]"));
+        const openControlButtons = Array.from(document.querySelectorAll("[data-open-device-control]"));
+        const closeDeviceButton = document.querySelector("[data-close-device-page]");
+        const closeAcButton = document.querySelector("[data-close-ac-control]");
+        const controlTitle = document.querySelector("[data-control-title]");
+        const controlValue = document.querySelector("[data-control-value]");
+        const controlState = document.querySelector("[data-control-state]");
+        const controlForms = Array.from(document.querySelectorAll("[data-control-form]"));
+        const filterButtons = Array.from(document.querySelectorAll("[data-device-filter]"));
+        const visualDeviceCards = Array.from(document.querySelectorAll(".visual-device-card[data-device-type]"));
+        const emptyHint = document.querySelector(".device-empty-hint");
+        const modeButton = document.querySelector("[data-mode-button]");
+        const tempMinus = document.querySelector("[data-temp-minus]");
+        const tempPlus = document.querySelector("[data-temp-plus]");
+        const windPrev = document.querySelector("[data-wind-prev]");
+        const windNext = document.querySelector("[data-wind-next]");
+        const autoSwitch = document.querySelector("[data-auto-switch]");
+        const saveButton = document.querySelector("[data-save-ac]");
+        const toast = document.querySelector("[data-control-toast]");
+
+        if (!devicePage || !controlPage || !closeDeviceButton || !closeAcButton) {
+          return;
+        }
+
+        const modes = ["制热", "制冷", "送风", "除湿"];
+        const winds = ["自动", "低速", "中速", "高速"];
+        const state = {
+          temp: 16,
+          modeIndex: 0,
+          windIndex: 0,
+          auto: false,
+          accessModeIndex: 0,
+          accessAlwaysOpen: false,
+          lightSceneIndex: 0,
+          lightLevel: 80,
+          lightTimer: true
+        };
+        const accessModes = ["会员识别", "临时放行", "仅员工", "常闭"];
+        const lightScenes = ["训练", "清洁", "休息", "关闭"];
+        const controlMeta = {
+          ac: { title: "空调控制" },
+          access: { title: "门禁控制" },
+          light: { title: "照明控制" }
+        };
+
+        const setPageOpen = (page, isOpen) => {
+          page.classList.toggle("active", isOpen);
+          page.setAttribute("aria-hidden", String(!isOpen));
+          document.body.classList.toggle("is-detail-open", isOpen || devicePage.classList.contains("active") || controlPage.classList.contains("active"));
+        };
+
+        const renderState = () => {
+          document.querySelectorAll("[data-ac-temp]").forEach((item) => {
+            item.textContent = String(state.temp);
+          });
+          document.querySelectorAll("[data-ac-temp-inline]").forEach((item) => {
+            item.textContent = String(state.temp);
+          });
+          document.querySelector("[data-ac-mode]").textContent = modes[state.modeIndex];
+          document.querySelector("[data-ac-wind]").textContent = winds[state.windIndex];
+          if (controlForms.find((form) => form.classList.contains("active"))?.dataset.controlForm === "ac") {
+            controlValue.innerHTML = `<span data-ac-temp>${state.temp}</span>°C`;
+            controlState.textContent = `${state.auto ? "空调开启" : "空调关闭"} · ${modes[state.modeIndex]} · ${winds[state.windIndex]}`;
+          }
+          autoSwitch.classList.toggle("is-on", state.auto);
+        };
+
+        const renderAccessState = () => {
+          document.querySelector("[data-access-mode] strong").textContent = accessModes[state.accessModeIndex];
+          document.querySelector("[data-access-switch]").classList.toggle("is-on", state.accessAlwaysOpen);
+          controlValue.textContent = state.accessAlwaysOpen ? "常开" : "在线";
+          controlState.textContent = `前门闸机 · ${accessModes[state.accessModeIndex]}`;
+        };
+
+        const renderLightState = () => {
+          document.querySelector("[data-light-scene] strong").textContent = lightScenes[state.lightSceneIndex];
+          document.querySelector("[data-light-level]").textContent = String(state.lightLevel);
+          document.querySelector("[data-light-switch]").classList.toggle("is-on", state.lightTimer);
+          controlValue.textContent = `${state.lightLevel}%`;
+          controlState.textContent = `训练区 · ${lightScenes[state.lightSceneIndex]}模式`;
+        };
+
+        const applySelectedDevice = (trigger) => {
+          if (!trigger) return;
+          const name = trigger.dataset.deviceName;
+          const summary = trigger.dataset.deviceSummary;
+          if (name) controlTitle.textContent = name;
+          if (summary) controlState.textContent = summary;
+        };
+
+        const openControl = (type, trigger) => {
+          controlTitle.textContent = trigger?.dataset.deviceName || controlMeta[type].title;
+          controlForms.forEach((form) => {
+            form.classList.toggle("active", form.dataset.controlForm === type);
+          });
+          setPageOpen(devicePage, true);
+          setPageOpen(controlPage, true);
+          if (type === "ac") renderState();
+          if (type === "access") renderAccessState();
+          if (type === "light") renderLightState();
+          applySelectedDevice(trigger);
+        };
+
+        openDeviceButtons.forEach((button) => {
+          button.addEventListener("click", () => setPageOpen(devicePage, true));
+        });
+
+        openControlButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            openControl(button.dataset.openDeviceControl, button);
+          });
+        });
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const filter = button.dataset.deviceFilter;
+            let visibleCount = 0;
+
+            filterButtons.forEach((item) => {
+              item.classList.toggle("active", item === button);
+            });
+
+            visualDeviceCards.forEach((card) => {
+              const isVisible = filter === "all" || card.dataset.deviceType === filter;
+              card.classList.toggle("is-hidden", !isVisible);
+              if (isVisible) visibleCount += 1;
+            });
+
+            if (emptyHint) {
+              emptyHint.classList.toggle("active", visibleCount === 0);
+            }
+          });
+        });
+
+        closeDeviceButton.addEventListener("click", () => setPageOpen(devicePage, false));
+        closeAcButton.addEventListener("click", () => setPageOpen(controlPage, false));
+
+        modeButton.addEventListener("click", () => {
+          state.modeIndex = (state.modeIndex + 1) % modes.length;
+          renderState();
+        });
+
+        tempMinus.addEventListener("click", () => {
+          state.temp = Math.max(16, state.temp - 1);
+          renderState();
+        });
+
+        tempPlus.addEventListener("click", () => {
+          state.temp = Math.min(30, state.temp + 1);
+          renderState();
+        });
+
+        windPrev.addEventListener("click", () => {
+          state.windIndex = (state.windIndex + winds.length - 1) % winds.length;
+          renderState();
+        });
+
+        windNext.addEventListener("click", () => {
+          state.windIndex = (state.windIndex + 1) % winds.length;
+          renderState();
+        });
+
+        autoSwitch.addEventListener("click", () => {
+          state.auto = !state.auto;
+          renderState();
+        });
+
+        saveButton.addEventListener("click", () => {
+          const autoType = document.querySelector("input[name='autoType']:checked").value;
+          const start = document.querySelector("[data-start-time]").value;
+          const end = document.querySelector("[data-end-time]").value;
+          toast.textContent = `已保存：${modes[state.modeIndex]} ${state.temp}°C，${winds[state.windIndex]}，${autoType} ${start}-${end}`;
+        });
+
+        document.querySelector("[data-access-mode]").addEventListener("click", () => {
+          state.accessModeIndex = (state.accessModeIndex + 1) % accessModes.length;
+          renderAccessState();
+        });
+        document.querySelector("[data-access-switch]").addEventListener("click", () => {
+          state.accessAlwaysOpen = !state.accessAlwaysOpen;
+          renderAccessState();
+        });
+        document.querySelector("[data-access-open]").addEventListener("click", () => {
+          document.querySelector("[data-access-toast]").textContent = "已下发远程开门指令：前门闸机";
+        });
+        document.querySelector("[data-save-access]").addEventListener("click", () => {
+          const start = document.querySelector("[data-access-start]").value;
+          document.querySelector("[data-access-toast]").textContent = `已保存：${accessModes[state.accessModeIndex]}，${state.accessAlwaysOpen ? "常开" : "按规则通行"}，${start} 生效`;
+        });
+
+        document.querySelector("[data-light-scene]").addEventListener("click", () => {
+          state.lightSceneIndex = (state.lightSceneIndex + 1) % lightScenes.length;
+          renderLightState();
+        });
+        document.querySelector("[data-light-minus]").addEventListener("click", () => {
+          state.lightLevel = Math.max(0, state.lightLevel - 10);
+          renderLightState();
+        });
+        document.querySelector("[data-light-plus]").addEventListener("click", () => {
+          state.lightLevel = Math.min(100, state.lightLevel + 10);
+          renderLightState();
+        });
+        document.querySelector("[data-light-switch]").addEventListener("click", () => {
+          state.lightTimer = !state.lightTimer;
+          renderLightState();
+        });
+        document.querySelector("[data-save-light]").addEventListener("click", () => {
+          const end = document.querySelector("[data-light-end]").value;
+          document.querySelector("[data-light-toast]").textContent = `已保存：${lightScenes[state.lightSceneIndex]}模式，亮度 ${state.lightLevel}%，${end} 关闭`;
+        });
+
+        renderState();
+      }
+
+      initFeatureTabs();
+      initAiDetailPage();
+      initCheckinCalendar();
+      initDeviceControlFlow();
+    </script>
+  </body>
+</html>
